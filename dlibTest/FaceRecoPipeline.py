@@ -34,7 +34,7 @@ def join_files(input_base_path):
     print("Rebuilding complete.")
 
 if not os.path.exists(predictor_path):
-    join_files(predictor_path, predictor_path)
+    join_files(predictor_path)
 
 print("\nPython version (platform):")
 print(platform.python_version())
